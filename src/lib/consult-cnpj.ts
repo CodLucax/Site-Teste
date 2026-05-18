@@ -6,6 +6,8 @@ export interface cnpjResult {
     cep: string
     cnpj: string
     nome_fantasia: string
+
+    
 }
 
 const BRASIL_API_URL = 'https://brasilapi.com.br/api/cnpj/v1/'

@@ -7,7 +7,7 @@ export function Button({
 }:{
     onClick: () => void,
     label: string,
-    shortKey?: string
+    shortKey: string
 }) {
 
     if(shortKey) {
