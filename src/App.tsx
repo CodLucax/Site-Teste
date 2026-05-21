@@ -74,11 +74,13 @@ function App() {
               <div className='border-2 p-2 rounded-md border-gray-500 text-gray-900 bg-gray-200'>
                 {cnpjData?.qsa.length > 0 && cnpjData?.qsa.map((item, index) => {
                   return (
-                    <div className='border-b-2'>
+                    <div className='border-b-2' gap-4>
                       {index+1}
                       <ul>
                         <li>Nome: {item?.nome_socio}</li>
                         <li>Faixa Etária: {item?.faixa_etaria}</li>
+                        <li>Qualificação:{item?.qualificacao_socio}</li>
+                        <li>CPF:{item?.cpf_representante_legal}</li>
                       </ul>
                     </div>
                   )
