@@ -54,7 +54,7 @@ function App() {
             <input
               placeholder='Informe o CNPJ'
               className='border-2 rounded-md px-2 py-1 ring-blue-600 bg-gray-100 focus:outline-black border-gray-500 text-gray-900' type="text" value={cnpj} onChange={handleSetCnpj}/>
-            <Button label='enviar' onClick={handleSearchCnpj} shortKey='Enter' disabled={loading || !ableToSearch}/>
+            <Button label='enviar' onClick={handleSearchCnpj} shortKey='' disabled={loading || !ableToSearch}/>
           </div>
          </section>
          {cnpjError && (
